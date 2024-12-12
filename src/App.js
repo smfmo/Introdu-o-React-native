@@ -7,13 +7,20 @@ import { View, StyleSheet } from 'react-native';
 //import CompPadrao, {Comp1, Comp2} from './components/Multi';
 //import Titulo from './components/Titulo';
 //import Botao from './components/botao';
-import Contador from './components/contador';
+//import Contador from './components/contador';
+//import Pai from './components/indireta/Pai';
+//import Pai from './components/direta/Pai';
+import ContadorV2 from './components/Contador/contadorv2';
+
 
 export default () => (
         <View style={style.App}>
+                <ContadorV2/>
+                {/*<Pai />
+                <Pai />
                 <Contador inicial={100} passo={13} />
                 <Contador/>
-               {/*<Botao/>
+               <Botao/>
                 <Titulo principal="Cadastro Produto"
                 secundario="Tela de Cadastro do Produto"/>
                 <Aleatorio min={1} max={1000}/>
